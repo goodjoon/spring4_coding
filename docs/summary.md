@@ -1,5 +1,13 @@
 ## Summary
 
+### Context Configuration 방법들
+* XML 설정
+* Annotation 설정
+* Java Bean 설정
+* Groovy DSL 설정
+
+위 설정들을 섞어서 사용 할 수도 있음 (관련 Document 는 Spring.io 의 Reference Document 를 참조하기)
+
 ### Annotations
 
 |*Marker*|*설명*|
@@ -12,4 +20,5 @@
 * *3장* 서로 다른 설정 적용하기
 	- [04 자바 빈 설정 사용하기](com/apress/isf/spring/config/04.md)
 
-
+* *4장* Bean Scope 사용하기
+ 
