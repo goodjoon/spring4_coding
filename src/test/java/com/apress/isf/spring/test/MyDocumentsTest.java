@@ -42,4 +42,8 @@ public class MyDocumentsTest {
 		assertNotNull(documents);
 		assertTrue(documents.size() == 4);
 	}
+	
+	public void testAll() {
+		engine = context.getBean(SearchEngine.class);
+	}
 }

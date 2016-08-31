@@ -10,11 +10,14 @@ repositories {
 dependencies {
 	compile("org.codehaus.groovy:groovy-all:2.3.+")
 	compile("org.springframework:spring-context:4.3.2.RELEASE")
+	compile("org.slf4j:slf4j-api:1.7.20")
+	compile('ch.qos.logback:logback-classic:1.1.7')
 	testCompile("junit:junit:4.11")
 }
 
-test {
+test {	
 	testLogging {
 		events "started", "passed"
+		showStandardStreams = true
 	}
 }
